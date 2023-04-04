@@ -1,0 +1,101 @@
+.home{
+    display: flex;
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: rgb(234, 231, 237);
+
+
+}
+.log{
+    display: flex;
+    position: relative;
+    left: 60%;
+    bottom: 40px;
+    
+
+}
+.mai{
+   
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+}
+#fan{
+    position: relative;
+    top: 15px;
+    color: red;
+
+}
+#fafa{
+    position: relative;
+    top: 15px;
+    
+}
+#sign{
+    width: 10%;
+    border-radius: 15px;
+}
+.have{
+    text-align: center;
+    margin-top: 70px;
+
+}
+#drow{
+    color: azure;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.tex{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+@media  screen and(max-width:768px){
+    .text{grid-template-columns: repeat(1,1fr);
+    }
+}
+#tpy4{
+    position: relative;
+    margin-top: 40px;
+    width: 35%;
+    margin-left: 30%;
+    height: 50%;
+    top: 40px;
+    border-radius: 15PX;
+}
+#tpy5{
+    position: relative;
+    margin-top: 40px;
+    width: 35%;
+    margin-left: 30%;
+    height: 150%;
+    top: 40px;
+    border-radius: 15PX;   
+}#hei{
+    position: relative;
+    /* bottom: 50px; */
+    top: 390px;
+}
+
+#sub{
+    margin-top: 120px;
+    width: 10%;
+    height: 30%;
+    margin-left: 45%;
+    color: black;
+    background-color: red;
+    border-radius: 10px;
+}
+#user{
+    position: relative;
+    left: 60%;
+    top: 30px;
+
+}
+#user1{
+    position: relative;
+    left: 60%;
+    top: 30px;
+
+}
